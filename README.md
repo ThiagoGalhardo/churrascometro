@@ -1,19 +1,13 @@
 
- ## Churrascometro - Thiago Galhardo
+ ## Churrascômetro - Thiago Galhardo
 
-Esse portfólio foi criado para mostrar meus projetos e habilidades.
-
-![image](https://user-images.githubusercontent.com/83739628/156067457-ed23bb4d-c62e-43ca-bff8-8cf7089c1ccb.png)
+Esse projeto foi criado para treinar minhas habilidades front-end
 
 ## 🚀 Projeto criado com as seguintes tecnologias:
 
-- ✔️ NextJs
-- ✔️ Responsividade (PC, Notebook e Smartphone)
-- ✔️ Componentização.
-- ✔️ Treinar CSS com o uso do Styled Components.
-- ✔️ Animações
-- ✔️ Uso da função map
-- ✔️ Formulários
+- ✔️ HTML
+- ✔️ CSS
+- ✔️ Javascript
 
 ## ⚙ Pré Requisitos
 
@@ -21,23 +15,13 @@ Esse portfólio foi criado para mostrar meus projetos e habilidades.
 
     - ✔️ [VsCode](https://code.visualstudio.com/download);
     - ✔️ [Git](https://git-scm.com/)
-    - ✔️ [NodeJS](https://nodejs.org/en/download/)
 
 <br>
 
 ## Clonar o repositório
 ```bash
-$ git clone https://github.com/CarlosAmorim94/portfolio
+$ git clone https://github.com/ThiagoGalhardo/churrascometro.git
 ```
 
-## Instalar dependências
-```bash
-yarn
-```
 
-## Rodar Projeto
-```bash
-yarn dev
-```
-
-## 😃 Gostou? me siga no -> [Likedln](https://www.linkedin.com/in/CarlosAmorim94/)
+## 😃 Gostou? me siga no -> [Likedln](https://www.linkedin.com/in/thgalhardo/)
