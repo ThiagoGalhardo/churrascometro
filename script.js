@@ -28,7 +28,13 @@ function calcular() {
     let qtdTotalCerveja = cerveja * adultos;
     let qtdTotalbebidas = bebidas * adultos + (bebidas / 2 * criancas);
 
-    resultado.innerHTML = `<p>${qtdTotalCarne / 1000}kg de Carne</p>`
+    showResult()
+
+
+    resultado.innerHTML = `<h2>Resultado</h2>`
+
+
+    resultado.innerHTML += `<p>${qtdTotalCarne / 1000}kg de Carne</p>`
     resultado.innerHTML += `<p>${Math.ceil(qtdTotalCerveja / 355)} Latas (355ml) de Cerveja</p>`
     resultado.innerHTML += `<p>${qtdTotalbebidas / 2000} Garrafas 2L de Bebida</p>`
 
@@ -51,4 +57,10 @@ function bebidasPP(duracao) {
     if (duracao >= 6) {
         return 1500
     } else { return 1000 }
+}
+
+
+function showResult() {
+    let result = document.getElementsByClassName("container-resultado")[0];
+    result.style.visibility = "visible";
 }

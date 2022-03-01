@@ -11,18 +11,24 @@
 <body>
 
 
-    <div class="container">
-        <h1>Churrascômetro</h1>
-        <input id="adultos" name="adultos" type="number" placeholder="Adultos">
-        <input id="criancas" name="criancas" type="number" placeholder="Crianças">
-        <input id="duracao" name="duracao" type="number" placeholder="Duração (horas)">
-        <button onclick="calcular()">Calcular</button>
+    <section>
 
-        <div id="resultado">
+
+        <div class="container">
+            <h1>Churrascômetro</h1>
+            <input id="adultos" name="adultos" type="number" placeholder="Adultos">
+            <input id="criancas" name="criancas" type="number" placeholder="Crianças">
+            <input id="duracao" name="duracao" type="number" placeholder="Duração (horas)">
+            <button onclick="calcular()">Calcular</button>
+
+            <div class="container-resultado">
+                <div id="resultado">
+                </div>
+            </div>
 
         </div>
-    </div>
 
+    </section>
 
     <script src="./script.js"></script>
 
